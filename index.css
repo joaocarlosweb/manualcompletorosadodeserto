@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+body{
+    background-color: #ffb7c9;
+}
+.cabeçalho{
+    width: 100%;
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+}
+.cabeçalho h1{
+    text-align: center;
+    margin: 25px;
+    margin-top: 58px;
+}
+.cabeçalho h1 span{
+    color: #ff2c69;
+}
+.cabeçalho h2{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.cabeçalho span{
+    color: #ff2c69;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-1{
+    align-items: center;
+    justify-content: center;
+}
+.content-1 img{
+    width: 25px;
+    height: 25px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #ffb7c9;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ff2c69;
+    border-radius: 20px;
+}
+.btn{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+.btn a{  
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 85px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color:#ff2c69 ;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: 700;
+    color: white;
+    box-shadow: 1px 4px 10px rgb(0, 0, 0, 0.4);
+}
+.btn a:hover{
+    background-color: #ffb7c9;
+    color:#ff2c69;
+    border: #ff2c69 1px solid;
+}
+.tittle{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 48px;
+    font-size: 19px;
+}
+.quadros{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(185px,1fr));
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #ffb7c9;
+}
+.quadro{
+    width: 185px;
+    height: 250px;
+    border: 1px solid #ff2c69;
+    text-align: center;
+    border-radius: 15px;
+    margin:20px;
+    padding: 15px;
+    box-shadow: 1px 4px 10px rgb(0, 0, 0, 0.4);
+}
+.quadro:hover{
+    background-color: #ff2c69;
+    transition: 1.7s all;
+}
+.quadro img{
+    width: 100px;
+    height: 100px;
+}
+.content-1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 73px;
+}
+.content-1 h2{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-size: 45px;
+    margin-bottom: 30PX;
+}
+.qudrocontent{
+    width: 91%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15PX;
+}
+.qudrocontent img{
+    width: 80px;
+    height: 80px;
+}
+.qudrocontent h3{
+    text-align: center;
+    font-size: 30px;
+}
+.prints{
+    width: 100%;
+    text-align: center;
+}
+.prints h3{
+    font-size: 38px;
+    margin-bottom: 65px;
+}
+.print{
+    text-align: center;
+    margin: 30px;
+}
+.print img{
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 4px 10px rgb(0, 0, 0, 0.4);
+}
+.garantias{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.garantia img{
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+.content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.content-2 h2{
+    font-size: 30px;
+}
+.content-2 a{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 35px;
+    background-color: #ff2c69;
+    color: white;
+    font-weight: 500;
+    border-radius: 45px;
+    margin-top: 15px;
+    border: 1px solid #ffb7c9;
+    transition: 1s;
+    box-shadow: 1px 4px 10px rgb(0, 0, 0, 0.4);
+}
+.content-2 a:hover{
+    background-color: #ffb7c9;
+    color: black;
+    border: 1px solid #ff2c69;
+    font-weight: 500;
+}
+.ebook{
+    display: flex;
+    align-items:center;
+}
+.content-3 h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.açao{
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+}
+.açao h2{
+    font-size: 32px;
+    text-decoration: line-through;
+    color: #ff2c69;
+}
+.açao h3{
+    font-size: 35px;  
+}
+.açao p{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.açao a{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 35px;
+    background-color: #ff2c69;
+    color: white;
+    font-weight: 500;
+    border-radius: 45px;
+    
+    border: 1px solid #ffb7c9;
+    transition: 1s;
+    box-shadow: 1px 4px 10px rgb(0, 0, 0, 0.4);
+}
+.açao a:hover{
+    background-color: #ffb7c9;
+    color: black;
+    border: 1px solid #ff2c69;
+    font-weight: 500;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+}
+.footer h4{
+    margin-bottom: 10px;
+}
+
+
+
