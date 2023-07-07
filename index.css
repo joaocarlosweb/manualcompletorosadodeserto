@@ -432,6 +432,12 @@ body{
         font-size: 24px;
     }
 }
+@media(max-width:365px){
+    .img img{
+        width: 300px;
+        height: 255px;
+    }
+}
 
 
 
