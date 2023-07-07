@@ -129,6 +129,7 @@ body{
     align-items: center;
     margin: auto;
     margin-bottom: 15PX;
+    justify-content: space-evenly;
 }
 .qudrocontent img{
     width: 80px;
@@ -245,13 +246,191 @@ body{
     font-weight: 500;
 }
 .footer{
-    width: 100%;
+    width: 90%;
     height: 100px;
     text-align: center;
     margin: 10px;
 }
 .footer h4{
     margin-bottom: 10px;
+}
+@media(max-width:1034px){
+    .garantias{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .garantia img{
+        width: 200px;
+        height: 200px;
+        margin-left: 130px;
+    }
+    .content-2 h2{
+        font-size: 23px;
+        width: 80%;
+
+    }
+    .content-3 h2{
+        font-size: 19px;
+        
+    }
+    .ebook img{
+        width: 364px;
+        height: 320px;
+        margin-left: 90px;
+    }
+    .qudrocontent h3{
+        font-size: 25px;
+    }
+    .qudrocontent img{
+        width: 60px;
+        height: 60px;
+    }
+    .prints h3{
+        width: 90%;
+        margin: 60px auto;
+    } 
+}
+@media(max-width:905px){
+    .cabeçalho h2{
+        font-size: 20px;
+    }
+    .ebook img{
+        margin-left: 0px;
+    }
+    .content-3 h2{
+        margin-right: 30px;
+    }
+    .qudrocontent h3{
+        font-size: 22px;
+    }
+}
+@media(max-width:754px){
+    .cabeçalho h1{
+        font-size: 25px;
+    }
+    .cabeçalho h2{
+        font-size: 17px;
+    }
+    .img img{
+        width: 550px;
+        height: 400px;
+    }
+    .content-1 h2{
+        font-size: 33px;
+    }
+    .qudrocontent{
+        width: 80%;
+        margin: auto;
+    }
+    .qudrocontent h3{
+        font-size: 16px;
+    }
+    .prints h3{
+        font-size: 32px;
+    }
+    .garantia img{
+        margin-left: 40px;
+    }
+    .ebook img{
+        margin-left: -35px;
+    }
+    .content-3{
+        margin-left: -55px;
+    }
+    .quadro{
+        margin: 25px auto 25px auto;
+        text-align: center;
+    }
+    .footer{
+        margin-top: -60px;
+    }
+}
+@media(max-width:641px){
+    .cabeçalho h2{
+        font-size: 17px;
+        width: 75%;
+    }
+    .cabeçalho h1{
+        font-size: 30px;
+        width: 69%;
+        margin: 16px auto 18px auto;
+    }
+    .img img{
+        width: 360px;
+        height: 300px;
+    }
+    .tittle h2{
+        width: 70%;
+        font-size: 23px;
+    }
+    .content-1 h2{
+        font-size: 35px;
+    }
+    .garantias{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -30px;
+    }
+    .garantia img{
+        margin-left: 11px;
+    }
+    .content-2 h2{
+        width: 85%;
+        font-size: 25px;
+        margin-top: -55px;
+    }
+    .ebook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+    .content-3{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .content-3 h2{
+        font-size: 22px;
+        width: 95%;
+        margin-left:10px ;
+        text-align:justify;
+    }
+    .print{
+        width: 100%;
+        margin: 15px auto 15px auto;
+    }
+
+}
+@media(max-width:460px){
+    .cabeçalho h1{
+        font-size: 24px;
+    }
+    .btn a{
+        padding: 20px 30px;
+    }
+    .content-3 h2{
+        text-align: justify;
+        font-size: 16px;
+    }
+    .açao p{
+        font-size: 25px;
+    }
+    .qudrocontent h3{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .prints h3{
+        font-size: 23px;
+        margin-top: -15px;
+    }
+    .content-1 h2{
+        font-size: 24px;
+    }
 }
 
 
